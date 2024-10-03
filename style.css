@@ -61,10 +61,14 @@ body {
     margin-left: auto
 }
 
-.vanta {
-    display: block;
+.pjs {
+    margin: 0 auto;
+    height: 30%;
+    width: 99.5%;
+    margin-top: 1%;
     border: 1px solid black;
     border-radius: 10px;
+    height: 75%;
 }
 
 /* .menu .active {
