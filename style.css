@@ -133,6 +133,11 @@ body {
 
 .tipOptionsAbout {
     display: block;
+    width: 75%;
+}
+
+.tipOptionsIcon {
+    width: 25%;
 }
 
 .tipOptionsIcon img {
