@@ -1,0 +1,115 @@
+/* Color Recommendations */  
+/* Note: First Color Is Darkest, Last One Is Lighest */
+    /* Dark Color Scheme */
+    /* 1A1A1A > 2E2E2E > 444444 */
+
+/* Font's Imported With GsLibrary */
+    /* font-family: 'Onest', sans-serif; */
+    /* font-family: 'Rubik', sans-serif; */
+    /* font-family: 'Ubuntu', sans-serif; */
+    /* font-family: 'Lato', sans-serif; */
+    /* font-family: 'Anton', sans-serif; */
+    /* font-family: 'Oswald', sans-serif; */
+    /* font-family: 'Luckiest Guy', cursive; */
+    /* font-family: 'Ubuntu Titling Bold', sans-serif; */
+
+* {
+    user-select: none;
+    cursor: auto;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1A1A1A;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container {
+    display: block;
+    /* border: 1px solid green; */
+    width: 100%;
+    margin: 0 auto;
+    padding: 0.5%;
+}
+
+.menu {
+    display: flex;
+    border: 1px solid black;
+    border-radius: 10px;
+    gap: 2.5%;
+    background-color: #444;
+    padding: 0.5%;
+}
+
+.menu i {
+    /*background-color: #666;*/
+    padding: 0.5%;
+    transition: 0.25s ease-in;
+}
+
+/* .menu .seperator {
+    border-left: 1px solid black;
+    gap: 0;
+} */
+
+.menu i:hover {
+    color: #bb2222;
+}
+
+.menu .rightside {
+    margin-left: auto
+}
+
+.pjs {
+    margin: 0 auto;
+    height: 30%;
+    width: 99.5%;
+    margin-top: 1%;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    height: 75%;
+}
+
+/* patreon.html */
+
+.Tier {
+    display: block;
+    background-color: #252525;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 80%;
+    margin: 5% auto;
+    padding: 1%
+}
+
+.PatreonTitle {
+    font-weight: 600;
+}
+
+.PatreonPrice {
+    color: #F5F5F5;
+    font-weight: 500;
+    margin-left: 1%;
+}
+
+.PatreonBenefits li {
+    color: #fff;
+    font-weight: 400;
+    margin-top: 0.5%;
+}
+
+.gotoPatreon, .gotoPatreon:hover {
+    display: block;
+    margin: 1% auto;
+    text-align: center;
+    background-color: #252525;
+    border: 2px solid black;
+    border-radius: 4px;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    padding: 2% 4%;
+    font-size: 180%;
+    text-decoration: none;
+}
