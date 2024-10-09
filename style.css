@@ -134,6 +134,7 @@ body {
 .tipOptionsAbout {
     display: block;
     width: 75%;
+    margin-left: 5%;
 }
 
 .tipOptionsIcon {
