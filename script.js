@@ -43,7 +43,8 @@ document.addEventListener("DOMContentLoaded", (event) => {
     });
 
     onClick(MNY, function(){
-        redirect("https://href.li/https://gavcreator.github.io/donate/");
+        //redirect("https://href.li/https://gavcreator.github.io/donate/");
+        redirect("tips.html");
     });
 
     onClick(PLUS, function(){
