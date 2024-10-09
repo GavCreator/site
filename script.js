@@ -49,4 +49,16 @@ document.addEventListener("DOMContentLoaded", (event) => {
     onClick(PLUS, function(){
         redirect("https://href.li/https://zaap.bio/gav");
     });
+
+    // tips.html
+    const TIP1 = getId('TipOpt1');
+    const TIP2 = getId('TipOpt2');
+
+    onClick(TIP1, function(){
+        redirect("https://href.li/https://streamelements.com/simplygav/tip")
+    });
+
+    onClick(TIP2, function(){
+        redirect("https://href.li/https://gavcreator.github.io/donate/--%20Old%20Website%20Archive/10.7.24/index.html")
+    })
 });
