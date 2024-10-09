@@ -136,7 +136,17 @@ body {
 }
 
 .tipOptionsIcon img {
-    width: 5%;
-    height: 5%;
+    width: 15%;
+    height: 15%;
     object-fit: cover;
+}
+
+.tipOptionsTitle {
+    font-size: large;
+    font-weight: 600;
+}
+
+.tipOptionsDescription {
+    font-size: medium;
+    font-weight: 400;
 }
