@@ -134,3 +134,9 @@ body {
 .tipOptionsAbout {
     display: block;
 }
+
+.tipOptionsIcon img {
+    width: 5%;
+    height: 5%;
+    object-fit: cover;
+}
