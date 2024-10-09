@@ -71,6 +71,45 @@ body {
     height: 75%;
 }
 
-/* .menu .active {
-    color: #666;
-} */
+/* patreon.html */
+
+.Tier {
+    display: block;
+    background-color: #252525;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 80%;
+    margin: 5% auto;
+    padding: 1%
+}
+
+.PatreonTitle {
+    font-weight: 600;
+}
+
+.PatreonPrice {
+    color: #F5F5F5;
+    font-weight: 500;
+    margin-left: 1%;
+}
+
+.PatreonBenefits li {
+    color: #fff;
+    font-weight: 400;
+    margin-top: 0.5%;
+}
+
+.gotoPatreon, .gotoPatreon:hover {
+    display: block;
+    margin: 1% auto;
+    text-align: center;
+    background-color: #252525;
+    border: 2px solid black;
+    border-radius: 4px;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    padding: 2% 4%;
+    font-size: 180%;
+    text-decoration: none;
+}
