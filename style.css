@@ -117,7 +117,7 @@ body {
 /* tips.html */
 
 .tO {
-    display: block;
+    display: flex;
     margin: 1% auto;
     text-align: center;
     background-color: #252525;
@@ -129,4 +129,8 @@ body {
     padding: 2% 4%;
     font-size: 180%;
     text-decoration: none;
+}
+
+.tipOptionsAbout {
+    display: block;
 }
