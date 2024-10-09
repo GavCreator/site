@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
     });
 
     onClick(PAT, function(){
-        redirect("https://href.li/https://www.patreon.com/gvnx");
+        redirect("patreon.html");
     });
 
     onClick(MNY, function(){
