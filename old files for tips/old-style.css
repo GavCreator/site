@@ -118,7 +118,6 @@ body {
 
 .tO {
     display: flex;
-    
     margin: 1% auto;
     text-align: center;
     background-color: #252525;
@@ -134,8 +133,18 @@ body {
 
 .tipOptionsAbout {
     display: block;
+    width: 75%;
     margin-left: 5%;
-    flex-grow: 1; /* Ensures content takes available space */
+}
+
+.tipOptionsIcon {
+    width: 25%;
+}
+
+.tipOptionsIcon img {
+    width: 15vw;
+    height: 15vw;
+    object-fit: cover;
 }
 
 .tipOptionsTitle {
