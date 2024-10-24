@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
     });
 
     onClick(DC, function(){
-        redirect("https://href.li/https://www.bit.ly/SimplyGavDiscord");
+        redirect("https://href.li/https://dsc.gg/simplygav");
     });
 
     onClick(PAT, function(){
