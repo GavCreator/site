@@ -118,7 +118,6 @@ body {
 
 .tO {
     display: flex;
-    
     margin: 1% auto;
     text-align: center;
     background-color: #252525;
@@ -134,8 +133,18 @@ body {
 
 .tipOptionsAbout {
     display: block;
+    width: 75%;
     margin-left: 5%;
-    flex-grow: 1; /* Ensures content takes available space */
+}
+
+.tipOptionsIcon {
+    width: 25%;
+}
+
+.tipOptionsIcon img {
+    width: 15vw;
+    height: 15vw;
+    object-fit: cover;
 }
 
 .tipOptionsTitle {
@@ -159,68 +168,3 @@ body {
     font-weight: 500;
     padding: 2% 4%;
 }
-
-/* benefits.html */
-
-.benefit-container {
-    display: block;
-}
-
-.listed-benefits {
-    display: flex;
-    /* text-align: center; */
-    background-color: #444;
-    border: 2px solid black;
-    border-radius: 10px;
-    color: white;
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: 500;
-    padding: 2% 4%;
-    margin-top: 2%;
-}
-
-.benefits-title {
-    text-align: center;
-    font-size: 180%;
-    font-weight: 500;
-}
-
-.benefits-subtitle {
-    font-size: 150%;
-}
-
-/*
-li::marker {
-    content: "\f559";
-    font-family: FontAwesome;
-    font-size: var(--icon-size);  
-}
-*/
-
-li::marker {
-    content: none;
-}
-
-li .badge {
-    padding-right: 1%;
-}
-
-.redirectlink {
-    display: block;
-    margin-left: auto;
-    margin-right: 0;
-    display: block;
-    background-color: #252525;
-    border: 2px solid black;
-    border-radius: 4px;
-    color: white;
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: 500;
-    padding: 1% 6%;
-    font-size: 120%;
-}
-
-.the-benefits {
-    margin-top: 1.65%;
-}
-
