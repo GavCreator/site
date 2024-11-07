@@ -167,7 +167,7 @@ body {
 }
 
 .listed-benefits {
-    display: flex;
+    display: block;
     /* text-align: center; */
     background-color: #444;
     border: 2px solid black;
