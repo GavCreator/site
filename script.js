@@ -21,6 +21,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
     const MNY = getId('money');
     const PLUS = getId('more');
     const BEN = getId('benefits');
+    const rdrPat = getId('rdrPat');
 
     // On Clicks
     onClick(Home, function(){
@@ -67,4 +68,9 @@ document.addEventListener("DOMContentLoaded", (event) => {
     onClick(TIP2, function(){
         redirect("https://href.li/https://oldpayments.gvnx.xyz/ModifiedOldSite/index.html")
     })
+
+    onClick(rdrPat, function(){
+        redirect("patreon.html");
+    });
+
 });
