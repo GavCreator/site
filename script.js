@@ -70,7 +70,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
     })
 
     onClick(rdrPat, function(){
-        redirect("patreon.html");
+        redirect("https://www.patreon.com/c/gvnx/membership?");
     });
 
 });
