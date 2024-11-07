@@ -159,3 +159,63 @@ body {
     font-weight: 500;
     padding: 2% 4%;
 }
+
+/* benefits.html */
+
+.benefit-container {
+    display: block;
+}
+
+.listed-benefits {
+    display: block;
+    /* text-align: center; */
+    background-color: #444;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    padding: 2% 4%;
+    margin-top: 2%;
+}
+
+.benefits-title {
+    text-align: center;
+    font-size: 180%;
+    font-weight: 500;
+}
+
+.benefits-subtitle {
+    font-size: 150%;
+}
+
+/*
+li::marker {
+    content: "\f559";
+    font-family: FontAwesome;
+    font-size: var(--icon-size);  
+}
+*/
+
+li::marker {
+    content: none;
+}
+
+li .badge {
+    padding-right: 1%;
+}
+
+.redirectlink {
+    display: block;
+    margin-left: auto;
+    margin-right: 0;
+    display: block;
+    background-color: #252525;
+    border: 2px solid black;
+    border-radius: 4px;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    padding: 1% 6%;
+    font-size: 120%;
+}

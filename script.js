@@ -20,6 +20,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
     const PAT = getId('patreon');
     const MNY = getId('money');
     const PLUS = getId('more');
+    const BEN = getId('benefits');
 
     // On Clicks
     onClick(Home, function(){
@@ -49,6 +50,10 @@ document.addEventListener("DOMContentLoaded", (event) => {
 
     onClick(PLUS, function(){
         redirect("https://href.li/https://zaap.bio/gav");
+    });
+
+    onClick(BEN, function(){
+        redirect("benefits.html");
     });
 
     // tips.html
