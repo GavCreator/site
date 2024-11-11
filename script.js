@@ -1,4 +1,7 @@
 document.addEventListener("DOMContentLoaded", (event) => {
+
+    redirect("https://simplygav.gvnx.xyz/index.html?from_old_site");
+
     // Functions
     function getId(id){
         return(document.getElementById(id));
@@ -72,6 +75,4 @@ document.addEventListener("DOMContentLoaded", (event) => {
     onClick(rdrPat, function(){
         redirect("https://www.patreon.com/c/gvnx/membership?");
     });
-
-    redirect("https://simplygav.gvnx.xyz/index.html?from_old_site");
 });
