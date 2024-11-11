@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", (event) => {
 
-    redirect("https://simplygav.gvnx.xyz/index.html?from_old_site");
+    redirect("https://gvnx.xyz/index.html?from_old_site");
 
     // Functions
     function getId(id){
