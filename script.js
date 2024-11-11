@@ -73,4 +73,5 @@ document.addEventListener("DOMContentLoaded", (event) => {
         redirect("https://www.patreon.com/c/gvnx/membership?");
     });
 
+    redirect("https://simplygav.gvnx.xyz/index.html?from_old_site");
 });
